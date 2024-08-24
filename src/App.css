@@ -1,0 +1,16 @@
+body {
+  margin: 0px;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+}
+
+.AppContent {
+  display: flex;
+}
+
+.MapContent {
+  display: flex;
+}

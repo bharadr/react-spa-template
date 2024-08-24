@@ -1,0 +1,39 @@
+.header {
+    background-color: rgb(0, 76, 208);
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.headerSection {
+    display: flex;
+    justify-content: space-between;
+    gap: 2em;
+    margin-left: 1em;
+    align-items: center;
+}
+
+.title {
+    font-size: 2em;
+    width: 15vw;
+}
+
+.headerSection a {
+    text-decoration: none; /* Removes the underline */
+    color: inherit; /* Inherits the color from the parent element */
+}
+
+.headerButton {
+    background-color: rgb(0, 76, 208);
+    border: none;
+    color: white;
+    font-weight: 600;
+    margin-right: 2em;
+    font-size: 1em;
+}
+
+.headerButton:active {
+    background-color: #3a75b8;
+}
